@@ -1,12 +1,12 @@
 <div align="center">
 
-<img src="assets/asfra.png" width="72" alt="Asfra"/>
+<img src="src/assets/asfra.png" width="72" alt="Asfra"/>
 
 # Asfra
 
 **Advanced Minecraft Automation Tool**
 
-![version](https://img.shields.io/badge/version-1.0.0-6855ab?style=flat-square)
+![version](https://img.shields.io/badge/version-2.0.0-6855ab?style=flat-square)
 ![platform](https://img.shields.io/badge/platform-Windows%2010%2F11-4a4a6a?style=flat-square)
 ![license](https://img.shields.io/badge/license-Proprietary-3a3a5a?style=flat-square)
 
@@ -17,7 +17,7 @@
 ---
 
 <div align="center">
-<img src="assets/clicker_page.png" width="700" alt="Asfra - Clicker Page"/>
+<img src="src/assets/clicker_pagenew.png" width="700" alt="Asfra - Clicker Page"/>
 </div>
 
 ---
@@ -29,6 +29,7 @@ Asfra is a high-performance desktop automation tool built for Minecraft PvP. The
 - Native C++ implementation for optimal performance and timing accuracy
 - Independent Left / Right click profiles with per-profile settings
 - Focus detection — automatically pauses when Minecraft loses focus
+- HUD overlay — live module status on top of the game
 - Single portable EXE — no installation, no dependencies
 
 ---
@@ -44,7 +45,7 @@ Asfra is a high-performance desktop automation tool built for Minecraft PvP. The
 | CPS Randomizer — natural timing variance | ✅ |
 | Mouse Shake — micro-movement per click | ✅ |
 | Toggle Mode / Push Mode | ✅ |
-| Custom hotkey binding (A–Z, F1–F12, Mouse4/5) | ✅ |
+| Custom hotkey binding (A–Z, F1–F12, Mouse2/4/5) | ✅ |
 | Block-Hit automation | 🔜 Coming soon |
 | Jitter Click | 🔜 Coming soon |
 | Butterfly Click pattern | 🔜 Coming soon |
@@ -54,18 +55,31 @@ Asfra is a high-performance desktop automation tool built for Minecraft PvP. The
 | Feature | Status |
 |---|---|
 | Auto Sprint | ✅ |
+| No Slow | ✅ |
 | Safe Walk | 🔜 Coming soon |
-| No Slow | 🔜 Coming soon |
 | Inventory Walk | 🔜 Coming soon |
+| Strafe | 🔜 Coming soon |
+| Scaffold | 🔜 Coming soon |
+
+### 🔧 Misc
+
+| Feature | Status |
+|---|---|
+| ESP (Player Wallhack) — DLL inject | ✅ |
+| Anti AFK — auto-jump every 13s | ✅ |
+| Reach | 🔜 Coming soon |
+| Velocity | 🔜 Coming soon |
+| Fly | 🔜 Coming soon |
+| Fast Place | 🔜 Coming soon |
 
 ### ⚙️ Settings
 
 | Feature | Status |
 |---|---|
 | Only in Focus | ✅ |
+| HUD Overlay | ✅ |
 | Stream Proof | 🔜 Coming soon |
 | Discord RPC | 🔜 Coming soon |
-| HUD Overlay | 🔜 Coming soon |
 
 ---
 
@@ -73,15 +87,21 @@ Asfra is a high-performance desktop automation tool built for Minecraft PvP. The
 
 <div align="center">
 
-<img src="assets/clicker_page.png" width="680" alt="Clicker Page"/>
+<img src="src/assets/clicker_pagenew.png" width="680" alt="Clicker Page"/>
 
 *Clicker — independent Left / Right profiles with CPS range, randomizer and hotkey binding*
 
 <br/><br/>
 
-<img src="assets/settings_page.png" width="680" alt="Settings Page"/>
+<img src="src/assets/movement_pagenew.png" width="680" alt="Movement Page"/>
 
-*Settings — client options and version info*
+*Movement — Auto Sprint, No Slow and movement macros*
+
+<br/><br/>
+
+<img src="src/assets/settings_pagenew.png" width="680" alt="Settings Page"/>
+
+*Settings — client options, HUD toggle and version info*
 
 </div>
 
@@ -116,12 +136,13 @@ Asfra may be flagged by Windows Defender or antivirus engines due to autoclicker
 |---|---|
 | Mouse / keyboard simulation | Uses `SendInput` Win32 API — standard autoclicker functionality |
 | Hotkey detection | Uses `GetAsyncKeyState` for configured hotkeys — does **not** log keystrokes |
+| DLL injection (ESP) | Uses `CreateRemoteThread` for ESP module — standard technique |
 | Unsigned binary | Code signing certificates cost $200–400/year; absence does not indicate malware |
 
 **Actual behavior:**
 - ❌ No network connections
 - ❌ No registry modifications  
-- ❌ No process injection
+- ❌ No process injection outside of opt-in ESP feature
 - ❌ Does not auto-start with Windows
 - ✅ Reads/writes nothing outside the application
 
