@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="src/assets/asfra.png" width="72" alt="Asfra"/>
+<img src="assets/asfra.png" width="72" alt="Asfra"/>
 
 # Asfra
 
@@ -17,7 +17,7 @@
 ---
 
 <div align="center">
-<img src="assets/clicker_pagenew.png" width="700" alt="Asfra - Clicker Page"/>
+<img src="assets/clickers_pagenew.png" width="700" alt="Asfra - Clicker Page"/>
 </div>
 
 ---
@@ -87,7 +87,7 @@ Asfra is a high-performance desktop automation tool built for Minecraft PvP. The
 
 <div align="center">
 
-<img src="assets/clicker_pagenew.png" width="680" alt="Clicker Page"/>
+<img src="assets/clickers_pagenew.png" width="680" alt="Clicker Page"/>
 
 *Clicker — independent Left / Right profiles with CPS range, randomizer and hotkey binding*
 
