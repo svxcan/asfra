@@ -47,7 +47,7 @@ Asfra is a high-performance desktop automation tool built for Minecraft PvP. The
 | Toggle Mode / Push Mode | ✅ |
 | Custom hotkey binding (A–Z, F1–F12, Mouse2/4/5) | ✅ |
 | Block-Hit automation | 🔜 Coming soon |
-| Jitter Click | 🔜 Coming soon |
+| Break Blocks | 🔜 Coming soon |
 | Butterfly Click pattern | 🔜 Coming soon |
 
 ### 🏃 Movement
@@ -118,7 +118,7 @@ Run `Asfra.exe` — no installer, no dependencies, no setup.
 | | |
 |---|---|
 | OS | Windows 10 / 11 (64-bit) |
-| Disk space | ~45 MB |
+| Disk space | ~35 MB |
 | Dependencies | None |
 
 ---
