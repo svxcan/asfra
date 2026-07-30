@@ -6,7 +6,7 @@
 
 **Advanced Minecraft Automation Tool**
 
-![version](https://img.shields.io/badge/version-2.0.0-6855ab?style=flat-square)
+![version](https://img.shields.io/badge/version-2.5.0-6855ab?style=flat-square)
 ![platform](https://img.shields.io/badge/platform-Windows%2010%2F11-4a4a6a?style=flat-square)
 ![license](https://img.shields.io/badge/license-Proprietary-3a3a5a?style=flat-square)
 
@@ -30,6 +30,7 @@ Asfra is a high-performance desktop automation tool built for Minecraft PvP. The
 - Independent Left / Right click profiles with per-profile settings
 - Focus detection — automatically pauses when Minecraft loses focus
 - HUD overlay — live module status on top of the game
+- Profile system — save and load configurations instantly
 - Single portable EXE — no installation, no dependencies
 
 ---
@@ -48,7 +49,8 @@ Asfra is a high-performance desktop automation tool built for Minecraft PvP. The
 | Custom hotkey binding (A–Z, F1–F12, Mouse2/4/5) | ✅ |
 | Block-Hit automation | 🔜 Coming soon |
 | Break Blocks | 🔜 Coming soon |
-| Butterfly Click pattern | 🔜 Coming soon |
+| Only Weapons | 🔜 Coming soon |
+| Inventory Check | 🔜 Coming soon |
 
 ### 🏃 Movement
 
@@ -57,9 +59,7 @@ Asfra is a high-performance desktop automation tool built for Minecraft PvP. The
 | Auto Sprint | ✅ |
 | No Slow | ✅ |
 | Safe Walk | 🔜 Coming soon |
-| Inventory Walk | 🔜 Coming soon |
 | Strafe | 🔜 Coming soon |
-| Scaffold | 🔜 Coming soon |
 
 ### 🔧 Misc
 
@@ -80,6 +80,14 @@ Asfra is a high-performance desktop automation tool built for Minecraft PvP. The
 | HUD Overlay | ✅ |
 | Stream Proof | 🔜 Coming soon |
 | Discord RPC | 🔜 Coming soon |
+
+### 💾 Profiles
+
+| Feature | Status |
+|---|---|
+| Save / Load configurations | ✅ |
+| Multiple named profiles | ✅ |
+| Per-profile clicker, movement, misc & settings | ✅ |
 
 ---
 
@@ -141,10 +149,10 @@ Asfra may be flagged by Windows Defender or antivirus engines due to autoclicker
 
 **Actual behavior:**
 - ❌ No network connections
-- ❌ No registry modifications  
+- ❌ No registry modifications
 - ❌ No process injection outside of opt-in ESP feature
 - ❌ Does not auto-start with Windows
-- ✅ Reads/writes nothing outside the application
+- ✅ Reads/writes nothing outside the application folder
 
 </details>
 
