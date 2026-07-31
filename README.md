@@ -17,7 +17,7 @@
 ---
 
 <div align="center">
-<img src="assets/clickers_pagenew.png" width="700" alt="Asfra - Clicker Page"/>
+<img src="assets/clicker_pagenew.png" width="700" alt="Asfra - Clicker Page"/>
 </div>
 
 ---
