@@ -98,7 +98,7 @@ Asfra is a high-performance desktop automation tool built for Minecraft PvP. The
 
 <div align="center">
 
-<img src="assets/clickers_pagenew.png" width="680" alt="Clicker Page"/>
+<img src="assets/clicker_pagenew.png" width="680" alt="Clicker Page"/>
 
 *Clicker — independent Left / Right profiles with CPS range, randomizer and hotkey binding*
 
