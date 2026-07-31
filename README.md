@@ -6,7 +6,7 @@
 
 **Advanced Minecraft Automation Tool**
 
-![version](https://img.shields.io/badge/version-2.5.0-6855ab?style=flat-square)
+![version](https://img.shields.io/badge/version-2.8.0-6855ab?style=flat-square)
 ![platform](https://img.shields.io/badge/platform-Windows%2010%2F11-4a4a6a?style=flat-square)
 ![license](https://img.shields.io/badge/license-Proprietary-3a3a5a?style=flat-square)
 
@@ -29,8 +29,11 @@ Asfra is a high-performance desktop automation tool built for Minecraft PvP. The
 - Native C++ implementation for optimal performance and timing accuracy
 - Independent Left / Right click profiles with per-profile settings
 - Focus detection — automatically pauses when Minecraft loses focus
-- HUD overlay — live module status on top of the game
+- **Inventory Check** — cursor-center detection, auto-pauses on GUI/ESC/inventory
+- **Break Blocks** — WASD-gated clicking, only fires while the player is moving
+- HUD overlay — live RGB module status on top of the game
 - Profile system — save and load configurations instantly
+- Raw Input based button tracking — zero latency added to mouse movement
 - Single portable EXE — no installation, no dependencies
 
 ---
@@ -47,10 +50,10 @@ Asfra is a high-performance desktop automation tool built for Minecraft PvP. The
 | Mouse Shake — micro-movement per click | ✅ |
 | Toggle Mode / Push Mode | ✅ |
 | Custom hotkey binding (A–Z, F1–F12, Mouse2/4/5) | ✅ |
+| Inventory Check — auto-pause on GUI/ESC/inventory | ✅ |
+| Break Blocks — WASD-gated, only clicks while moving | ✅ |
 | Block-Hit automation | 🔜 Coming soon |
-| Break Blocks | 🔜 Coming soon |
 | Only Weapons | 🔜 Coming soon |
-| Inventory Check | 🔜 Coming soon |
 
 ### 🏃 Movement
 
@@ -77,7 +80,7 @@ Asfra is a high-performance desktop automation tool built for Minecraft PvP. The
 | Feature | Status |
 |---|---|
 | Only in Focus | ✅ |
-| HUD Overlay | ✅ |
+| HUD Overlay (RGB, per-module) | ✅ |
 | Stream Proof | 🔜 Coming soon |
 | Discord RPC | 🔜 Coming soon |
 
@@ -107,10 +110,15 @@ Asfra is a high-performance desktop automation tool built for Minecraft PvP. The
 
 <br/><br/>
 
+<img src="assets/profiles_pagenew.png" width="680" alt="Profiles Page"/>
+
+*Profiles — save and load named configurations instantly*
+
+<br/><br/>
+
 <img src="assets/settings_pagenew.png" width="680" alt="Settings Page"/>
 
 *Settings — client options, HUD toggle and version info*
-
 </div>
 
 ---
