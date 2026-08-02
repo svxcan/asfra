@@ -6,7 +6,7 @@
 
 **Advanced Minecraft Automation Tool**
 
-![version](https://img.shields.io/badge/version-2.8.0-6855ab?style=flat-square)
+![version](https://img.shields.io/badge/version-3.0.0-6855ab?style=flat-square)
 ![platform](https://img.shields.io/badge/platform-Windows%2010%2F11-4a4a6a?style=flat-square)
 ![license](https://img.shields.io/badge/license-Proprietary-3a3a5a?style=flat-square)
 
