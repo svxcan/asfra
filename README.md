@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/asfra.png" width="72" alt="Asfra"/>
+<img src="assets/asfranew.png" width="72" alt="Asfra"/>
 
 # Asfra
 
