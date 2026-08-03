@@ -6,7 +6,7 @@
 
 **Advanced Minecraft Automation Tool**
 
-![version](https://img.shields.io/badge/version-3.0.0-6855ab?style=flat-square)
+![version](https://img.shields.io/badge/version-3.2.0-6855ab?style=flat-square)
 ![platform](https://img.shields.io/badge/platform-Windows%2010%2F11-4a4a6a?style=flat-square)
 ![license](https://img.shields.io/badge/license-Proprietary-3a3a5a?style=flat-square)
 
@@ -70,10 +70,6 @@ Asfra is a high-performance desktop automation tool built for Minecraft PvP. The
 |---|---|
 | ESP (Player Wallhack) — DLL inject | ✅ |
 | Anti AFK — auto-jump every 13s | ✅ |
-| Reach | 🔜 Coming soon |
-| Velocity | 🔜 Coming soon |
-| Fly | 🔜 Coming soon |
-| Fast Place | 🔜 Coming soon |
 
 ### ⚙️ Settings
 
