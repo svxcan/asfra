@@ -6,8 +6,8 @@
 
 **Advanced Minecraft Automation Tool**
 
-![version](https://img.shields.io/badge/version-3.2.0-6855ab?style=flat-square)
-![platform](https://img.shields.io/badge/platform-Windows%2010%2F11-4a4a6a?style=flat-square)
+![version](https://img.shields.io/badge/version-3.3.0-6855ab?style=flat-square)
+![platform](https://img.shields.io/badge/platform-Windows%207%2F8.1%2F10%2F11-4a4a6a?style=flat-square)
 ![license](https://img.shields.io/badge/license-Proprietary-3a3a5a?style=flat-square)
 
 [Download](#download) • [Features](#features) • [Screenshots](#screenshots) • [Security](#security)
@@ -17,7 +17,7 @@
 ---
 
 <div align="center">
-<img src="assets/clicker_pagenew.png" width="700" alt="Asfra - Clicker Page"/>
+<img src="assets/clickerpage.png" width="700" alt="Asfra - Clicker Page"/>
 </div>
 
 ---
@@ -32,9 +32,25 @@ Asfra is a high-performance desktop automation tool built for Minecraft PvP. The
 - **Inventory Check** — cursor-center detection, auto-pauses on GUI/ESC/inventory
 - **Break Blocks** — WASD-gated clicking, only fires while the player is moving
 - HUD overlay — live RGB module status on top of the game
-- Profile system — save and load configurations instantly
+- Profile system — save and load named configurations instantly
 - Raw Input based button tracking — zero latency added to mouse movement
+- Multi-language UI — English and Turkish supported
+- Theme preference saved across sessions
+- Discord & Website shortcuts in the side menu
 - Single portable EXE — no installation, no dependencies
+
+---
+
+## What's New
+
+- Added Turkish & English language support
+- Theme preference is now saved across sessions
+- Added Discord and Website shortcuts to the side menu
+- Added Windows 7 & 8.1 support
+- Fixed ESP-related issues
+- Fixed side menu logo bug
+- Fixed application crash issues
+- Minor fixes and improvements
 
 ---
 
@@ -76,9 +92,12 @@ Asfra is a high-performance desktop automation tool built for Minecraft PvP. The
 | Feature | Status |
 |---|---|
 | Only in Focus | ✅ |
-| HUD Overlay (RGB, per-module) | ✅ |
+| HUD Overlay (RGB, per-module, scalable) | ✅ |
+| Show CPS on HUD | ✅ |
+| Discord RPC | ✅ |
+| Language — English / Turkish | ✅ |
+| Theme — Pink / Blue (saved) | ✅ |
 | Stream Proof | 🔜 Coming soon |
-| Discord RPC | 🔜 Coming soon |
 
 ### 💾 Profiles
 
@@ -94,34 +113,34 @@ Asfra is a high-performance desktop automation tool built for Minecraft PvP. The
 
 <div align="center">
 
-<img src="assets/clicker_pagenew.png" width="680" alt="Clicker Page"/>
+<img src="assets/clickerpage.png" width="680" alt="Clicker Page"/>
 
 *Clicker — independent Left / Right profiles with CPS range, randomizer and hotkey binding*
 
 <br/><br/>
 
-<img src="assets/movement_pagenew.png" width="680" alt="Movement Page"/>
+<img src="assets/modulespage.png" width="680" alt="Modules Page"/>
 
-*Movement — Auto Sprint, No Slow and movement macros*
+*Modules — Movement, ESP and Anti AFK*
 
 <br/><br/>
 
-<img src="assets/profiles_pagenew.png" width="680" alt="Profiles Page"/>
+<img src="assets/profilespage.png" width="680" alt="Profiles Page"/>
 
 *Profiles — save and load named configurations instantly*
 
 <br/><br/>
 
-<img src="assets/settings_pagenew.png" width="680" alt="Settings Page"/>
+<img src="assets/settingspage.png" width="680" alt="Settings Page"/>
 
-*Settings — client options, HUD toggle and version info*
+*Settings — client options, HUD, language, theme and version info*
 </div>
 
 ---
 
 ## Download
 
-Download the latest release from the [**Releases**](../../releases) page.
+Download the latest release from the [**Releases**](../../releases) page or visit **[asfra.xyz](https://asfra.xyz)**.
 
 Run `Asfra.exe` — no installer, no dependencies, no setup.
 
@@ -129,8 +148,8 @@ Run `Asfra.exe` — no installer, no dependencies, no setup.
 
 | | |
 |---|---|
-| OS | Windows 10 / 11 (64-bit) |
-| Disk space | ~35 MB |
+| OS | Windows 7 / 8.1 / 10 / 11 (64-bit) |
+| Disk space | ~40 MB |
 | Dependencies | None |
 
 ---
@@ -156,7 +175,7 @@ Asfra may be flagged by Windows Defender or antivirus engines due to autoclicker
 - ❌ No registry modifications
 - ❌ No process injection outside of opt-in ESP feature
 - ❌ Does not auto-start with Windows
-- ✅ Reads/writes nothing outside the application folder
+- ✅ Reads/writes nothing outside `%APPDATA%\AsfraClient`
 
 </details>
 
@@ -184,5 +203,5 @@ Unauthorized distribution, modification, or reverse engineering is prohibited.
 ---
 
 <div align="center">
-<sub>Made by <b>svx</b></sub>
+<sub>Made by <b>svx</b> &nbsp;·&nbsp; <a href="https://asfra.xyz">asfra.xyz</a></sub>
 </div>
