@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="src/assets/asfra.png" width="72" alt="Asfra"/>
+<img src="assets/asfra.png" width="72" alt="Asfra"/>
 
 # Asfra
 
@@ -17,7 +17,7 @@
 ---
 
 <div align="center">
-<img src="docs/screenshots/clicker_stormy.png" width="700" alt="Asfra - Clicker panel"/>
+<img src="assets/clicker_stormy.png" width="700" alt="Asfra - Clicker panel"/>
 </div>
 
 ---
@@ -135,25 +135,25 @@ Asfra is a high-performance desktop automation tool built for Minecraft PvP. The
 
 <div align="center">
 
-<img src="docs/screenshots/clicker_stormy.png" width="680" alt="Clicker panel"/>
+<img src="assets/clicker_stormy.png" width="680" alt="Clicker panel"/>
 
 *Clicker — independent Left / Right profiles with their own CPS, options and hotkey, plus Rod and Gapple macros*
 
 <br/><br/>
 
-<img src="docs/screenshots/modules_stormy.png" width="680" alt="Modules — Movement and Misc"/>
+<img src="assets/modules_stormy.png" width="680" alt="Modules — Movement and Misc"/>
 
 *Modules — Auto Sprint, No Slow, Safe Walk · ESP & Chams, Anti AFK, PvP Bat*
 
 <br/><br/>
 
-<img src="docs/screenshots/profiles_stormy.png" width="680" alt="Manage profiles"/>
+<img src="assets/profiles_stormy.png" width="680" alt="Manage profiles"/>
 
 *Profiles — save and load named configurations instantly*
 
 <br/><br/>
 
-<img src="docs/screenshots/settings_stormy.png" width="680" alt="Settings panel"/>
+<img src="assets/settings_stormy.png" width="680" alt="Settings panel"/>
 
 *Settings — client options, HUD, language, theme and version info*
 </div>
