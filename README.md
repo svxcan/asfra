@@ -6,7 +6,7 @@
 
 **Advanced Minecraft Automation Tool**
 
-![version](https://img.shields.io/badge/version-3.5.6-6855ab?style=flat-square)
+![version](https://img.shields.io/badge/version-3.6.0-6855ab?style=flat-square)
 ![platform](https://img.shields.io/badge/platform-Windows%2010%2F11-4a4a6a?style=flat-square)
 ![license](https://img.shields.io/badge/license-Proprietary-3a3a5a?style=flat-square)
 
@@ -34,9 +34,10 @@ Asfra is a high-performance desktop automation tool built for Minecraft PvP. The
 - **Module keys** — every module can be switched on and off with its own key
 - **HUD overlay** — module list, CPS counter and on/off alerts on top of the game, in three styles
 - **Stats** — live CPS chart and all-time click statistics, backed up so they are never lost
+- **CraftRise stats** — look up any player's rank, experience and modes; save yourself and follow every match you play
 - **Shortcuts (F1)** — every key in one list, clashes marked
 - Profile system — save, load and share named configurations
-- One-click updates with release notes inside the app
+- Silent updates with release notes inside the app, and an opt-in beta channel
 - Raw Input based button tracking — zero latency added to mouse movement
 - English and Turkish UI, six themes, keyboard navigation, Windows display scaling
 - Single portable EXE — no installation, no dependencies
@@ -92,9 +93,13 @@ Asfra is a high-performance desktop automation tool built for Minecraft PvP. The
 | Themes — Stormy, Eclipse, Lush, Ink, Fireworks (and a hidden one) | ✅ |
 | Close to system tray (quit from the tray icon) | ✅ |
 | Stats page — live CPS chart, session and all-time statistics | ✅ |
+| CraftRise page — any player's rank road, points per minute by mode, wins and K/D since the search | ✅ |
+| Save a player — followed whenever Asfra is open, alongside other searches | ✅ |
 | Shortcuts (F1) — every key in one list, bind keys in place | ✅ |
 | What's New — release notes inside the app | ✅ |
-| One-click updates (SHA-256 verified) | ✅ |
+| Silent updates — download in the background, switch on restart (SHA-256 verified) | ✅ |
+| Beta channel — opt in to early versions, settings backed up, reports sent from the app | ✅ |
+| One Asfra at a time — a second launch brings the running one forward | ✅ |
 | Report a problem — copies version and recent errors | ✅ |
 | Stream Proof | 🔜 Coming soon |
 
@@ -140,6 +145,12 @@ Asfra is a high-performance desktop automation tool built for Minecraft PvP. The
 <img src="assets/account_stormy.png" width="680" alt="Stats"/>
 
 *Stats — live CPS chart, this session and all-time clicks*
+
+<br/><br/>
+
+<img src="assets/craftrise_stormy.png" width="680" alt="Stats — CraftRise"/>
+
+*Stats › CraftRise — rank road, points per minute by mode and the mode being played (a demo player)*
 </div>
 
 ---
@@ -177,8 +188,8 @@ Asfra may be flagged by Windows Defender or antivirus engines due to autoclicker
 | Unsigned binary | Code signing certificates cost $200–400/year; absence does not indicate malware |
 
 **Actual behavior:**
-- 🌐 Only connects to GitHub — to check for updates and show release notes (Discord RPC talks to the Discord app on your PC)
-- ❌ No registry modifications
+- 🌐 Connects to GitHub to check for updates and show release notes, and to craftrise.com.tr only when you look up or save a player, to read that player's public profile (Discord RPC talks to the Discord app on your PC)
+- ❌ No registry changes, except PvP Bat while it is on: it sets Windows' network throttling off (and puts it back to the Windows default when turned off), and switches the power plan and TCP tuning, which it also restores. Most of these need Asfra to run as administrator
 - ❌ No process injection outside of opt-in ESP feature
 - ❌ Does not auto-start with Windows
 - ✅ Settings and stats live in `%APPDATA%\AsfraClient`; the log and update files in `%LOCALAPPDATA%\AsfraClient`
